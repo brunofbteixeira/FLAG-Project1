@@ -3,6 +3,21 @@
 }
 
 
+
+herader
+
+position absoluta
+
+
+
+#wrap{
+    max-width: 990px;
+    height: 1265px;
+    margin: auto;
+    background-color: white;
+}
+
+
 html, body {
     margin: 20px;
     padding: 20px;
