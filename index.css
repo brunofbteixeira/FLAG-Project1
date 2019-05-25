@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-
-
-herader
-
-position absoluta
-
+/* body{
+    background-image: linear-gradient(to bottom,  rgb(195, 195, 195));
+} */
 
 
 #wrap{
@@ -15,21 +14,86 @@ position absoluta
     height: 1265px;
     margin: auto;
     background-color: white;
+    
 }
 
+header{
+    position: absolute;
+    max-width: 990px;
 
-html, body {
-    margin: 20px;
-    padding: 20px;
-} 
+}
+
 
 #main_page{
-    font-family: 'Open Sans', sans-serif;
-    /* background-image: linear-gradient(to bottom bottom , black, blue 800px, black 800px); */
+    background-color: rgb(195, 195, 195);
 }
 
 
 
+#cidade ul li{
+    position: relative;
+    left: 828px;
+    top: -16px;
+    width: 35%;
+    height: 35px;
+    background-color: darkorange;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding:7px;
+}
+
+
+#barra_pesquisa{
+    position: relative;
+    left: 495px;
+    width: 100%;
+
+}
+
+.logo{
+    position: absolute;
+}
+
+
+#redes_sociais{
+    position: relative;
+    left: 917px;
+}
+
+#menu_principal{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menu_principal > li {
+    display: inline;
+    position: relative;
+}
+
+#menu_principal a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+#menu_principal a:hover {
+    background-color: black;
+    color: white;
+}
+#menu_principal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    display: none;
+    border: 1px solid #000;
+
+}
 
 
 /*
